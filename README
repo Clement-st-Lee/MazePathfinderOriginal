@@ -1,0 +1,8 @@
+This is the original Maze Pathfinder code written last spring 2021
+
+
+Notes:
+ - The WeightedGraph.java class is where all the search algorithms are
+
+ - To run the program go to the MazeGUI.java class
+
