@@ -34,13 +34,6 @@ public class WeightedGraph<V> {
 	private final int INFINITY = (int)Double.POSITIVE_INFINITY; //used in disktras algo
 
 
-
-	/* Collection of observers.  Be sure to initialize this list
-	 * in the constructor.  The method "addObserver" will be
-	 * called to populate this collection.  Your graph algorithms 
-	 * (DFS, BFS, and Dijkstra) will notify these observers to let 
-	 * them know how the algorithms are progressing. 
-	 */
 	private Collection<GraphAlgorithmObserver<V>> observerList;
 
 
